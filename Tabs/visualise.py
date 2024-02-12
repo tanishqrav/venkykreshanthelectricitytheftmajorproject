@@ -15,7 +15,7 @@ def app(df, X, y):
     
     # Remove the warnings
     warnings.filterwarnings('ignore')
-    #st.set_option('deprecation.showPyplotGlobalUse', False)
+    st.set_option('deprecation.showPyplotGlobalUse', False)
 
     # Set the page title
     st.title("Visualise Electricity Theft Detection")
